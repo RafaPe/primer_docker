@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y wget git
 
 RUN git clone https://github.com/RafaPe/primer_docker.git /home/
 
-CMD ["python", "/home/saludo.py"]
+CMD ["python3", "/home/saludo.py"]
